@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{81c1a268-7b8c-467a-be51-e7d2082ff3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\ImGui">
+      <UniqueIdentifier>{3576478e-3978-4104-8dc3-0b7b6d78f6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Windows">
+      <UniqueIdentifier>{4adbfbfb-f5d6-4474-896f-6cce910e3f16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Entry.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui_draw.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui_impl_win32.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui_tables.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui_widgets.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Style.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Manager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\LoginWindow.cpp">
+      <Filter>Source\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\WindowBase.cpp">
+      <Filter>Source\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\MainWindow.cpp">
+      <Filter>Source\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Library\ImGui\imconfig.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imgui.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imgui_impl_dx11.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imgui_impl_win32.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imgui_internal.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imstb_rectpack.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imstb_textedit.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imstb_truetype.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Global.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Render.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Style.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Manager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\WindowBase.h">
+      <Filter>Source\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\LoginWindow.h">
+      <Filter>Source\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\MainWindow.h">
+      <Filter>Source\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

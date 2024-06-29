@@ -16,6 +16,8 @@ Those two example windows are implemented in the project.
 
 ![screenshot](Assets/screenshot.png)
 
+![video](https://img.youtube.com/vi/AS_18Hs68Ik/0.jpg)](https://www.youtube.com/watch?v=AS_18Hs68Ik)
+
 ## Compiling
 1. Download [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) (Community Edition is fine).
 2. When installing, select "Desktop development with C++."
